@@ -3,10 +3,11 @@ Corasent Inventory
 README
 ================================================================
 
-PHP based web app for inventory management for packers business.
+PHP based web framework for custom inventory management. Built 
+on a custom PHP MVC with MySQL database.
 
-Language - PHP
-Database - MySQL
+PHP version 5.3 and above.
+MySQLi
 
 
 ================================================================
