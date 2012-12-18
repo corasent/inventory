@@ -1,7 +1,12 @@
 <?php 
 
+require 'config.php';
 require 'load.php';
 require 'model.php';
 require 'controller.php';
 
-new Controller();
+$controller = new Controller();
+
+$controller->db_connect();
+$controller->about();
+
